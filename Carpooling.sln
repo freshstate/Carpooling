@@ -15,7 +15,11 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Carpooling", "Carpooling\Ca
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Carpooling\Carpooling\Carpooling.projitems*{308c6dc3-302e-4b4d-b962-a50764f10cd5}*SharedItemsImports = 4
 		Carpooling\Carpooling\Carpooling.projitems*{938f7710-fb29-468f-b81c-96338c15166f}*SharedItemsImports = 13
+		Carpooling\Carpooling\Carpooling.projitems*{909ed58c-a7a6-403b-9249-1869124ddba1}*SharedItemsImports = 4
+		Carpooling\Carpooling\Carpooling.projitems*{a7b36123-597d-4ef6-947b-a81377c3d44e}*SharedItemsImports = 4
+		Carpooling\Carpooling\Carpooling.projitems*{40d44330-c911-4517-be71-d0f5a10daf4b}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
