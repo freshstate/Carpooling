@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Carpooling.Login">
+  <ScrollView>
+    <StackLayout Orientation="Vertical" BackgroundColor="#26A69A">
+      
+        <Label
+        Text="AppName"
+        FontSize="30"
+        BackgroundColor="#004D40"
+        HeightRequest="100"
+        WidthRequest="100"
+        TextColor="White"
+        HorizontalTextAlignment="Center"
+        VerticalTextAlignment="Center"
+        FontAttributes="Bold"
+        />
+      
+      
+      
+          <Entry Text="Email" VerticalOptions="Center" HorizontalOptions="FillAndExpand" BackgroundColor="White"/>
+          <Entry Text="Password" VerticalOptions="Center" HorizontalOptions="FillAndExpand" BackgroundColor="White" IsPassword="True"/>
+      
+      
+    
+    </StackLayout>
+    
+  
+
+  </ScrollView>
+</ContentPage>
