@@ -5,32 +5,23 @@
   <ScrollView>
     <StackLayout Orientation="Vertical" BackgroundColor="#26A69A">
 
-      <Label
-      Text="AppName"
-      FontSize="30"
-      BackgroundColor="#004D40"
-      HeightRequest="100"
-      WidthRequest="100"
-      TextColor="White"
-      HorizontalTextAlignment="Center"
-      VerticalTextAlignment="Center"
-      FontAttributes="Bold"
-        />
+      <Label Text="AppName" FontSize="30" BackgroundColor="#004D40" HeightRequest="100" WidthRequest="100" TextColor="White" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" FontAttributes="Bold"/>
 
 
       <StackLayout Orientation="Vertical" Padding="20,50,20,20" Spacing="30">
-        <Entry Placeholder="Email" PlaceholderColor="Black" BackgroundColor="White" TextColor="#00695C" HeightRequest="42"></Entry>
-        <Entry Placeholder="Password" PlaceholderColor="Black" BackgroundColor="White" TextColor="#00695C"  IsPassword="True" HeightRequest="42"></Entry>
-        <Button Text="Sign In" BackgroundColor="#4CAF50" TextColor="White"></Button>
+
+        <Entry x:Name="emailEntry" Placeholder="Email" />
+        <Entry x:Name="passwordEntry" Placeholder="Password"  IsPassword="True" />
+        <Button x:Name="signInButton" Text="Sign In" Style="{StaticResource buttonSuccessStyle}" />
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
+          
+          <Label Text="No Acount?" Style="{StaticResource labelBoldStyle}"></Label>
+
+          <Button Text="Sign Up" Style="{StaticResource linkStyle}" ></Button>
         
-          <StackLayout Orientation="Horizontal" HorizontalOptions="Center" >
-          <Label Text="No Acount?" VerticalOptions="Center" TextColor="White"  FontAttributes="Bold"></Label>
-          <Button Text="Sign Up" BackgroundColor="Transparent" VerticalOptions="Center" TextColor="#81D4FA" ></Button> 
         </StackLayout>
       </StackLayout>
-
-
-
 
     </StackLayout>
 

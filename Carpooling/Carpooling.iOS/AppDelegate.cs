@@ -23,7 +23,7 @@ namespace Carpooling.iOS
 		public override bool FinishedLaunching(UIApplication app, NSDictionary options)
 		{
 			global::Xamarin.Forms.Forms.Init ();
-			LoadApplication (new Carpooling.App ());
+			LoadApplication (new Carpooling.AppStart ());
 
 			return base.FinishedLaunching (app, options);
 		}

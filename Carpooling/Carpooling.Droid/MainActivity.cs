@@ -17,7 +17,7 @@ namespace Carpooling.Droid
 			base.OnCreate (bundle);
 
 			global::Xamarin.Forms.Forms.Init (this, bundle);
-			LoadApplication (new Carpooling.App ());
+			LoadApplication (new Carpooling.AppStart());
 		}
 	}
 }
