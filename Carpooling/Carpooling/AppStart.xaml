@@ -4,7 +4,6 @@
              x:Class="Carpooling.AppStart">
   <Application.Resources>
     <ResourceDictionary>
-      
       <Style TargetType="Entry">
         <Setter Property="BackgroundColor" Value="White"/>
         <Setter Property="TextColor" Value="#00695C" />
